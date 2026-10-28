@@ -1,22 +1,32 @@
 /* Asterisk wildcard selector used to overide default styles */
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* General Styles */
+body {min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles*/
+    color: #3a3a3a;
+}
+
 /* header */
-header{
+header {
     background-color: aqua;
 }
 
 /*main*/
-main{
+main {
     background-color: beige;
+    /* make main element take up surplus space to push footer down */
+    flex: 1 0 auto;
 }
 
 /*footer*/
-footer{
+footer {
     background-color: burlywood;
 }
