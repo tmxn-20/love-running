@@ -25,6 +25,9 @@ header {
     
 }
 
+h1 { font-family:'Oswald', sans-serif ;
+
+}
 /*main*/
 main {
     background-color: beige;
