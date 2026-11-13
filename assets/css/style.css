@@ -69,3 +69,34 @@ main {
 footer {
     background-color: burlywood;
 }
+
+/* Media Query: Tablet and Larger (768 px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+     header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+
+    }
+
+   nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    nav li {
+        margin-bottom: 0;
+    }
+}
+    
+
+
